@@ -28,15 +28,30 @@ a {
 
 .btn-primary {
     background: $colors-primary;
+    transition: all .2s ease-in-out;
+    &:hover {
+        background: #1f3480;
+    }
 }
 
 .btn-secondary {
     border: 2px solid $colors-text;
+    transition: all .2s ease-in-out;
+    &:hover {
+        background: $colors-text;
+        color: $colors-bg-dark;
+    }
 }
 
 main {
     width: 320px;
     margin: 0px auto;
+    @media (min-width: 768px) {
+        width: 728px;
+    }
+    @media (min-width: 1200px) {
+        width: 1200px;
+    }
 }
 
 nav {
@@ -45,6 +60,12 @@ nav {
     justify-content: center;
     border-bottom: 1px solid #0C203E;
     height: 160px;
+    @media (min-width: 1200px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 140px;
+    }
     .navbar-left {
         display: flex;
         justify-content: space-between;
@@ -62,6 +83,14 @@ nav {
     .navbar-right {
         display: flex;
         margin-top: 20px;
+        a {
+            @media (min-width: 1200px) {
+                height: fit-content;
+                font-size: 18px;
+                padding: 20px 40px;
+                margin-top: 0px;
+            }
+        }
     }
 }
 
@@ -70,6 +99,9 @@ footer {
     margin-top: 60px;
     padding: 40px 20px;
     text-align: center;
+    @media (min-width: 1200px) {
+        margin-top: 120px;
+    }
     .footer-logo {
         font-size: 20px;
         font-weight: 700;

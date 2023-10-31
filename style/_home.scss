@@ -1,5 +1,8 @@
 .home {
     margin-top: 80px;
+    @media (min-width: 1200px) {
+        margin-top: 120px;
+    }
     .home-website {
         background: #761544;
         width: fit-content;
@@ -11,10 +14,23 @@
     .home-title {
         font-size: 38px;
         margin-bottom: 40px;
+        @media (min-width: 1200px) {
+            font-size: 96px
+        }
     }
     .home-button {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        @media (min-width: 1200px) {
+            flex-direction: row;
+            a {
+                width: fit-content;
+                padding: 20px 60px;
+                font-size: 18px;
+                display: flex;
+                align-items: center;
+            }
+        }
     }
 }
