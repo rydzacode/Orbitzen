@@ -1,0 +1,51 @@
+/*---------------------------------------------------------*/
+
+/**
+*
+* Responsive settings
+*
+**/
+/**/ $android-sm: 360px;
+/**/ $tablet-sm: 764px;
+/**/ $desktop-sm: 1200px;
+/**/ $large-sm: 1400px;
+
+/*---------------------------------------------------------*/
+
+/**
+* Font settings
+* Default:
+* $global-font: 'Montserrat', sans-serif;
+**/
+/**/ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/**/ $global-font: 'Poppins', sans-serif;
+
+/*---------------------------------------------------------*/
+
+/**
+*
+* Colors settings
+*
+**/
+
+/**/ $colors-primary: #3F5ECE;
+/**/ $colors-bg-dark: #010915;
+/**/ $colors-footer-dark: #020B18;
+/**/ $colors-text: #C6C6C6;
+/**/ $colors-button-text: #E9E9E9; 
+
+/*---------------------------------------------------------*/
+
+/**
+*
+* Border radius settings
+*
+**/
+
+/**/ $radius-circle: 50%;
+/**/ $radius-big: 999px;
+/**/ $radius-desktop: 10px;
+/**/ $radius-mobile: 6px;
+
+/*---------------------------------------------------------*/

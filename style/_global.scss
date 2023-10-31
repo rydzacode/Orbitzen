@@ -1,0 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/assets/images/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: $global-font;
+}
