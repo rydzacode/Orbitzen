@@ -129,11 +129,15 @@ nav .navbar-right {
   margin-top: 20px;
 }
 @media (min-width: 1200px) {
+  nav .navbar-right {
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1200px) {
   nav .navbar-right a {
     height: fit-content;
     font-size: 18px;
-    padding: 20px 40px;
-    margin-top: 0px;
+    padding: 16px 40px;
   }
 }
 
@@ -189,10 +193,11 @@ footer .footer-logo span {
 @media (min-width: 1200px) {
   .home .home-button {
     flex-direction: row;
+    gap: 40px;
   }
   .home .home-button a {
     width: fit-content;
-    padding: 20px 60px;
+    padding: 16px 40px;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -208,6 +213,7 @@ footer .footer-logo span {
 @media (min-width: 1200px) {
   .category {
     flex-direction: row;
+    justify-content: space-between;
   }
 }
 .category .category-box {
@@ -227,7 +233,7 @@ footer .footer-logo span {
 }
 @media (min-width: 1200px) {
   .category .category-box {
-    width: 340px;
+    width: 360px;
   }
 }
 .category .category-box .category-info {
@@ -246,6 +252,11 @@ footer .footer-logo span {
   width: 260px;
   margin-top: 80px;
   transition: all 0.3s ease-in-out;
+}
+.category .category-box .category-galaxy-img {
+  width: 320px;
+  margin-top: 100px;
+  margin-bottom: 35px;
 }
 .category .category-box .category-title {
   font-size: 24px;

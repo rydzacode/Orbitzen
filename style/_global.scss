@@ -83,12 +83,14 @@ nav {
     .navbar-right {
         display: flex;
         margin-top: 20px;
+        @media (min-width: 1200px) {
+            margin-top: 0px;
+        }
         a {
             @media (min-width: 1200px) {
                 height: fit-content;
                 font-size: 18px;
-                padding: 20px 40px;
-                margin-top: 0px;
+                padding: 16px 40px;
             }
         }
     }

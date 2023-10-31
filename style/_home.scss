@@ -24,9 +24,10 @@
         gap: 20px;
         @media (min-width: 1200px) {
             flex-direction: row;
+            gap: 40px;
             a {
                 width: fit-content;
-                padding: 20px 60px;
+                padding: 16px 40px;
                 font-size: 18px;
                 display: flex;
                 align-items: center;
