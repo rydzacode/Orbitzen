@@ -47,7 +47,131 @@
 
 body {
   background-image: url("../assets/images/background.svg");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #010915;
   font-family: "Poppins", sans-serif;
+  color: #C6C6C6;
+}
+
+a {
+  color: #C6C6C6;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #3F5ECE;
+}
+
+.btn-secondary {
+  border: 2px solid #C6C6C6;
+}
+
+main {
+  width: 320px;
+  margin: 0px auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #0C203E;
+  height: 160px;
+}
+nav .navbar-left {
+  display: flex;
+  justify-content: space-between;
+}
+nav .navbar-left .navbar-logo a h3 {
+  font-size: 22px;
+}
+nav .navbar-left .navbar-logo a h3 span {
+  color: #3F5ECE;
+}
+nav .navbar-right {
+  display: flex;
+  margin-top: 20px;
+}
+
+footer {
+  background: #020B18;
+  margin-top: 60px;
+  padding: 40px 20px;
+  text-align: center;
+}
+footer .footer-logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .footer-logo span {
+  color: #3F5ECE;
+}
+
+.home {
+  margin-top: 80px;
+}
+.home .home-website {
+  background: #761544;
+  width: fit-content;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.home .home-title {
+  font-size: 38px;
+  margin-bottom: 40px;
+}
+.home .home-button {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.category .category-box {
+  background-color: #040F1F;
+  background-image: url("/assets/images/category-background.svg");
+  background-size: cover;
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+}
+.category .category-box .category-info {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: #B56B28;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 6px;
+}
+.category .category-box .category-info-pink {
+  background: #B528A7;
+}
+.category .category-box img {
+  width: 260px;
+  margin-top: 80px;
+}
+.category .category-box .category-title {
+  font-size: 24px;
+  margin-top: 20px;
 }/*# sourceMappingURL=style.min.css.map */

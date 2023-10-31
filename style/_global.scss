@@ -6,7 +6,75 @@
 
 body {
     background-image: url('../assets/images/background.svg');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
+    background-color: $colors-bg-dark;
     font-family: $global-font;
+    color: $colors-text;
+}
+
+a {
+    color: $colors-text;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    border-radius: $radius-mobile;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background: $colors-primary;
+}
+
+.btn-secondary {
+    border: 2px solid $colors-text;
+}
+
+main {
+    width: 320px;
+    margin: 0px auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid #0C203E;
+    height: 160px;
+    .navbar-left {
+        display: flex;
+        justify-content: space-between;
+        .navbar-logo {
+            a {
+                h3 {
+                    font-size: 22px;
+                    span {
+                        color: $colors-primary;
+                    }
+                }
+            }
+        }
+    }
+    .navbar-right {
+        display: flex;
+        margin-top: 20px;
+    }
+}
+
+footer {
+    background: $colors-footer-dark;
+    margin-top: 60px;
+    padding: 40px 20px;
+    text-align: center;
+    .footer-logo {
+        font-size: 20px;
+        font-weight: 700;
+        span {
+            color: $colors-primary;
+        }
+    }
 }
