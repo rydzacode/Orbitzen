@@ -98,6 +98,16 @@ main {
     width: 1200px;
   }
 }
+@media (min-width: 1400px) {
+  main {
+    width: 1400px;
+  }
+}
+@media (min-width: 1600px) {
+  main {
+    width: 1600px;
+  }
+}
 
 nav {
   display: flex;
@@ -234,6 +244,16 @@ footer .footer-logo span {
 @media (min-width: 1200px) {
   .category .category-box {
     width: 360px;
+  }
+}
+@media (min-width: 1400px) {
+  .category .category-box {
+    width: 400px;
+  }
+}
+@media (min-width: 1600px) {
+  .category .category-box {
+    width: 500px;
   }
 }
 .category .category-box .category-info {
