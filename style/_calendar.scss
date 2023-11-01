@@ -1,0 +1,43 @@
+.calendar {
+    background: $colors-footer-dark;
+    border-radius: $radius-desktop;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    .calendar-box {
+        background: #040E1D;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 18px;
+        gap: 10px;
+        border-radius: $radius-desktop;
+        @media (min-width: 1200px) {
+            font-size: 20px;
+        }
+        .date {
+            color: $colors-primary;
+            font-weight: 700;
+        }
+    }
+    .calendar-box-month {
+        background: #18234B;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 18px;
+        text-align: center;
+        font-weight: 700;
+        border-radius: $radius-desktop;
+        gap: 10px;
+    }
+    .calendar-box-zrodlo {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        font-size: 18px;
+        gap: 10px;
+    }
+}

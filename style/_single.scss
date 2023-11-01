@@ -1,0 +1,101 @@
+.single {
+    background: $colors-footer-dark;
+    border-radius: $radius-desktop;
+    padding: 20px;
+    margin-top: 60px;
+    @media (min-width: 1200px) {
+        padding: 40px;
+        margin-top: 80px;
+    }
+    .single-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        @media (min-width: 1200px) {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 60px;
+        }
+        .single-image {
+            img {
+                width: 100%;
+                @media (min-width: 1200px) {
+                  width: 460px;  
+                } 
+                @media (min-width: 1400px) {
+                    width: 560px;  
+                } 
+            }
+        }
+        .single-text {
+            h4 {
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 40px;
+            }
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 34px;
+                @media (min-width: 1200px) {
+                    font-size: 20px;
+                    line-height: 38px;
+                }
+            }
+        }
+    }
+    .single-more {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .single-more-title {
+            h4 {
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+        .single-more-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+            .single-more-box {
+                background: #040E1D;
+                width: 440px;
+                height: 88px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0px 30px;
+                border-radius: $radius-desktop;
+                font-size: 18px;
+                font-weight: 500;
+                @media (min-width: 1200px) {
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 410px;
+                    font-size: 20px;
+                }
+                .single-more-info {
+                    color: $colors-primary;
+                }
+            }
+        }
+        .single-more-gallery {
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            flex-wrap: wrap;
+            img {
+                width: 100%;
+                @media (min-width: 1200px) {
+                    width: 460px;  
+                }
+            }
+        }
+    }
+}

@@ -1,25 +1,39 @@
 .category-list {
     background: $colors-footer-dark;
     border-radius: $radius-desktop;
-    padding: 40px 40px 0px 40px;
+    padding: 20px 20px 0px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    margin-top: 80px;
+    flex-direction: column;
+    margin-top: 60px;
+    @media (min-width: 1200px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     a {
         .category-list-box {
             background: #040E1D;
-            width: 440px;
+            width: 260px;
             height: 88px;
             border-radius: $radius-desktop;
             display: flex;
             align-items: center;
-            gap: 40px;
+            gap: 30px;
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 40px;
             transition: all .2s ease-in-out;
+            @media (min-width: 768px) {
+                width: 680px;
+            }
+            @media (min-width: 1200px) {
+                width: 440px;
+            }
+            @media (min-width: 1400px) {
+                width: 500px;
+            }
             img {
                 border-radius: $radius-desktop;
             }
