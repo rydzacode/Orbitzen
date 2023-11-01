@@ -1,0 +1,31 @@
+.category-list {
+    background: $colors-footer-dark;
+    border-radius: $radius-desktop;
+    padding: 40px 40px 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    a {
+        .category-list-box {
+            background: #040E1D;
+            width: 440px;
+            height: 88px;
+            border-radius: $radius-desktop;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 40px;
+            transition: all .2s ease-in-out;
+            img {
+                border-radius: $radius-desktop;
+            }
+            &:hover {
+                background: #081933;
+            }
+        }
+    }
+}

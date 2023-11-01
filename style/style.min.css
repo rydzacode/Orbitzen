@@ -281,4 +281,34 @@ footer .footer-logo span {
 .category .category-box .category-title {
   font-size: 24px;
   margin-top: 20px;
+}
+
+.category-list {
+  background: #020B18;
+  border-radius: 10px;
+  padding: 40px 40px 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.category-list a .category-list-box {
+  background: #040E1D;
+  width: 440px;
+  height: 88px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  transition: all 0.2s ease-in-out;
+}
+.category-list a .category-list-box img {
+  border-radius: 10px;
+}
+.category-list a .category-list-box:hover {
+  background: #081933;
 }/*# sourceMappingURL=style.min.css.map */
